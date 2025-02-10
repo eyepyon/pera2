@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "solana-agent-kit": "^1.4.5"
+  }
+}
