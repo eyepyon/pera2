@@ -1,6 +1,7 @@
 # pera2
 PeraPeLive 
 
+https://snir4gmnv2m0ru-7860.proxy.runpod.net/
 
 runpodを借りて入れる ※これでも高い 
 
@@ -24,4 +25,9 @@ I起動
 python -m moshi.server --hf-repo nu-dialogue/j-moshi-ext --host 0.0.0.0 --port 7860
 
 
+
+※QuickPodのほうが安いみたい・・・。
+
+https://zenn.dev/mathewchan/articles/d90550d49c1d14
+https://console.quickpod.io/
 
