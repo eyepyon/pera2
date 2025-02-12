@@ -32,7 +32,7 @@
 </div>
 <form id="walletForm" style="display: none;" action="play.php" method="post">
     <input type="text" id="walletInput" name="address" readonly>
-    <button type="submit" class="button">PeraPeLive Talk Start!!</button>
+    <input type="submit" value="PeraPeLive Talk Start!!"/>
 </form>
 
 <script src="wallet.js"></script>
