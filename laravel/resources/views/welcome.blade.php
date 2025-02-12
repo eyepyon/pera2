@@ -1,16 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>PeraPeLive</title>
+    <title>PeraPelive Connection</title>
+    <style>
+        .button {
+            padding: 10px 20px;
+            margin: 10px 0;
+            cursor: pointer;
+        }
+        #walletStatus {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        #walletForm {
+            margin: 20px 0;
+        }
+        #walletInput {
+            padding: 8px;
+            width: 400px;
+            margin-right: 10px;
+        }
+    </style>
 </head>
 <body>
-<button id="connectButton">Connect Wallet</button>
+<div id="walletStatus">Checking for Phantom wallet...</div>
+<button id="connectButton" style="display: none;" class="button">Connect Phantom Wallet</button>
 <div id="walletInfo" style="display: none;">
     <p>Connected wallet: <span id="walletAddress"></span></p>
-    <button id="disconnectButton">Disconnect</button>
+    <button id="disconnectButton" class="button">Disconnect</button>
 </div>
+<form id="walletForm" style="display: none;" action="play.php" method="post">
+    <input type="text" id="walletInput" name="address" readonly>
+    <button type="submit" class="button">PeraPeLive Talk Start!!</button>
+</form>
 
-<script src="./js/wallet.js"></script>
+<script src="wallet.js"></script>
 </body>
 </html>
-
